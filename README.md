@@ -1,6 +1,6 @@
 # Supplement for restricted content on CSDN!!!
 > 😭😮😡\n
-> 个人账号：https://blog.csdn.net/m0_74133525?type=blog
+- [ ] 个人账号：https://blog.csdn.net/m0_74133525?type=blog
 - 此账户处于禁言状态，如有疑问联系客服
 - 你因违反社区规范，将取消排行榜排名和获得勋章的权益，如有疑问请联系客服。
 - 你因违反社区规范在[博客]被禁言7天，如有疑问请联系客服
