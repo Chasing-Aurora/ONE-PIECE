@@ -18,6 +18,7 @@
 - 搜索栏输入 Git: Set upstream branch，选择：origin/master，完成主分支设置
 - 在obsidian输入快捷键"Cmd + P"，然后搜索栏输入 Git: Commit all changes
 - "Cmd + P"，然后搜索栏输入 Git: Push
+- 好嘞，去看看Github 仓库里面有没有东西把！！！
 
 
 ### 如果ob里面有一些东西了
@@ -26,6 +27,7 @@
 - 搜索栏输入 Git: Set upstream branch，选择：origin/master，完成主分支设置
 - 在obsidian输入快捷键"Cmd + P"，然后搜索栏输入 Git: Commit all changes
 - "Cmd + P"，然后搜索栏输入 Git: Push
+- 好嘞，去看看Github 仓库里面有没有东西把！！！
 
 
 
