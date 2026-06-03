@@ -3,6 +3,33 @@
 下面是一些我依次遇到的问题以及相关的操作
 
 [主要的路线参考的是 这里](https://blog.csdn.net/qq_41653564/article/details/156830834)
+
+
+## 关联Ob和Github
+### 如果ob是从0开始的
+- `git clone`对应的仓库
+	- 不要管理员权限执行Git，否则报错：安全权限的问题
+	需要执行：`git config --global --add safe.directory "D:/Paper_tool/Obsidian/Vault/Cognition`
+	或者：属性 → 安全 → 高级 → 所有者 → 更改 → 选择你的用户 → 勾选“替换子容器和对象的所有者”。
+- `cd`进去
+- 把之前的 `.obsidian`的文件夹 复制过去（便于迁移配置）
+- 然后obsidian中“打开文件夹”就可以啦！！！
+	- ![image](https://img2024.cnblogs.com/blog/3579252/202606/3579252-20260603201739584-14459856.png)
+- 搜索栏输入 Git: Set upstream branch，选择：origin/master，完成主分支设置
+- 在obsidian输入快捷键"Cmd + P"，然后搜索栏输入 Git: Commit all changes
+- "Cmd + P"，然后搜索栏输入 Git: Push
+
+
+### 如果ob里面有一些东西了
+- 输入快捷键"Cmd + P"，搜索栏输入 Git: Initialize a new repo，进行初始化。
+- 输入快捷键"Cmd + P"，搜索栏输入 Git: Edit remotes，Remote name选origin，url格式：https://github.com/你的用户名/你的仓库名.git
+- 搜索栏输入 Git: Set upstream branch，选择：origin/master，完成主分支设置
+- 在obsidian输入快捷键"Cmd + P"，然后搜索栏输入 Git: Commit all changes
+- "Cmd + P"，然后搜索栏输入 Git: Push
+
+
+
+
 ## Git: Set upstream branch 时候fetch 不了
 ![屏幕截图 2026-02-15 183932](https://img2024.cnblogs.com/blog/3579252/202602/3579252-20260216132342396-1763917344.png)
 报错：
