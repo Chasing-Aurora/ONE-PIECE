@@ -22,6 +22,8 @@
 
 
 ### 如果ob里面有一些东西了
+- 最佳流程是：==GitHub 新建仓库时不要勾选 README/LICENSE/.gitignore，创建一个真正空仓库==
+	- 要不然 后续会报错的！！！
 - 输入快捷键"Cmd + P"，搜索栏输入 Git: Initialize a new repo，进行初始化。
 - 输入快捷键"Cmd + P"，搜索栏输入 Git: Edit remotes，Remote name选origin，url格式：https://github.com/你的用户名/你的仓库名.git
 - 搜索栏输入 Git: Set upstream branch，选择：origin/master，完成主分支设置
